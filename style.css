@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+button {
+    font-size: 24px;
+    margin: 5px;
+}
+
+.input-group {
+    width: 100%;
+}
+
+.form-control {
+    text-align: right;
+    font-size: 36px;
+    height: 60px;
+}
